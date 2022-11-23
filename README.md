@@ -8,6 +8,9 @@ or a password i just created a new minutes ago, unfortunately this is a long sto
 
 ### The Project
 
+[Backend](https://github.com/Carly7004/Mini-Password-Generator-Manager/tree/main/api)
+[Frontend](https://github.com/Carly7004/Mini-Password-Generator-Manager/tree/main/frontend)
+
 This will be a minimal application designed with common known technologies like 
 1. Reactjs
 2. Express
