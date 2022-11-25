@@ -15,7 +15,12 @@ export const Container = styled.div`
   margin: 0;
 `;
 
-export const Title = styled.h2``;
+export const Title = styled.h2`
+margin: 10px 0 20px;
+text-align: center;
+`;
+
+export const ButtonContainer = styled.div``;
 
 export const GenerateButton = styled.button``;
 
