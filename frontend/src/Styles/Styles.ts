@@ -1,27 +1,36 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-  background-color: #3b3b99;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  padding: 10px;
-  margin: 0;
+  background-color: #23232a;
+  box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  width: 350px;
+  min-width: 100%;
 `;
 
 export const Title = styled.h2`
-margin: 10px 0 20px;
-text-align: center;
+  margin: 10px 0 20px;
+  text-align: center;
 `;
 
-export const ButtonContainer = styled.div``;
+export const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
 
-export const GenerateButton = styled.button``;
+export const Button = styled.button`
+  border: none;
+  background-color: #3b3b99;
+  color: #fff !important;
+  font-size: 16px;
+  padding: 8px 10px;
+  cursor: pointer;
+`;
 
-export const SaveButton = styled.button``;
+export const GenerateButton = styled(Button)`
+  width: 50%;
+`;
+
+export const SaveButton = styled(Button)`
+  width: 40%;
+`;

@@ -36,7 +36,7 @@ const MainApp = (props: Props) => {
       <SettingContainer>
         <Setting>
           <Lable>Password Length</Lable>
-          <InputLength />
+          <InputLength className="appearance-none rounded-lg px-1"/>
         </Setting>
         <CheckboxSetting>
           <Lable>UpperCase Laters</Lable>
