@@ -5,7 +5,6 @@ export const Container = styled.div`
   box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
   padding: 20px;
   width: 350px;
-  min-width: 100%;
 `;
 
 export const Title = styled.h2`

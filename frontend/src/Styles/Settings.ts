@@ -17,7 +17,10 @@ export const InputLength = styled.input.attrs({
   min: "8",
   max: "20",
   value: "20",
-})``;
+})`
+
+
+`;
 
 export const CheckboxSetting = styled(Setting)``;
 
