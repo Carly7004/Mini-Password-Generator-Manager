@@ -14,12 +14,12 @@ export const ResultContainer = styled.div`
   width: 100%;
 `;
 
-export const Result = styled.div`
+export const Result = styled.input`
   word-wrap: break-word;
   max-width: calc(100% - 40px);
 `;
 
-export const EmptySpan = styled.span``;
+// export const EmptySpan = styled.input``;
 
 export const ClipboardButton = styled(Button)`
   position: absolute;
